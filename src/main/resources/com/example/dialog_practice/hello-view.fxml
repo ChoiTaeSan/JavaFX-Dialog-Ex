@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<StackPane fx:id="stack" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dialog_practice.RootController">
+  <children>
+    <BorderPane prefHeight="300.0" prefWidth="400.0">
+      <center>
+
+        <Label fx:id="welcomeText" BorderPane.alignment="CENTER" />
+      </center>
+      <top>
+        <MenuBar BorderPane.alignment="CENTER">
+          <menus>
+            <Menu mnemonicParsing="false" text="File">
+              <items>
+                <MenuItem fx:id="mi_test" mnemonicParsing="false" onAction="#onHelloButtonClick" text="Test" />
+                <MenuItem mnemonicParsing="false" onAction="#onFileChooserOpen" text="File" />
+                <MenuItem mnemonicParsing="false" onAction="#onDirectoryChooserOpen" text="Direc" />
+                <MenuItem fx:id="mi_popup" mnemonicParsing="false" text="Popup" />
+                <MenuItem fx:id="mi_custom" mnemonicParsing="false" text="Custom" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Delete" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+              <items>
+                <MenuItem mnemonicParsing="false" text="About" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+      </top>
+      <bottom>
+        <Button fx:id="btn_next" mnemonicParsing="false" text="next" BorderPane.alignment="CENTER" />
+      </bottom>
+    </BorderPane>
+  </children>
+</StackPane>

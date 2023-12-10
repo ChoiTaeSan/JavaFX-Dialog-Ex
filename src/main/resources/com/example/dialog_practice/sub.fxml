@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:controller="com.example.dialog_practice.SubController" fx:id="sub_layout" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: #B2EBF4;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button fx:id="btn_back" layoutX="174.0" layoutY="275.0" mnemonicParsing="false" text="main" />
+    </children>
+</AnchorPane>
